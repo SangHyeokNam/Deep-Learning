@@ -49,5 +49,5 @@
 
 > * 기본적인 구조의 신경망 Layer를 코드에서 설명하겠습니다.
 >![스크린샷 2024-03-12 035822](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/e2365e9f-10cd-49e5-9224-777361339d21)
-> self.w = self.add_weight((input_dim, output_dim)) 와 self.b = self.add_weight((1, output_dim))는 가중치와 편향을 정의합니다. 가중치에 입력 차원과 출력 차원의 갯수를 정의해주고, 편향은 입력 노드가 한 개이므로 1과 출력 차원 갯수를 정의해줍니다.
-> 
+> * self.w = self.add_weight((input_dim, output_dim)) 와 self.b = self.add_weight((1, output_dim))는 가중치와 편향을 정의합니다. 가중치에 입력 차원과 출력 차원의 갯수를 정의해주고, 편향은 입력 노드가 한 개이므로 1과 출력 차원 갯수를 정의해줍니다.
+> * 다음은 호출 함수 정의를 해주는데, 'tf.matmul()'은 행렬곱을 의미합니다. 입력 값과 가중치를 행렬곱을 통해 계산을 하고, 편향을 더하여 Z를 정의해줍니다. 마지막으로 출력은 시그모이드 함수를 통해 값을 return합니다.
