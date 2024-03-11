@@ -19,7 +19,7 @@
 >
 > X는 입력을 나타내며, W는 가중치를 말합니다. X1에 W1을 곱하고, X2에 W2를 곱하는 방법으로 Xm과 Wm까지의 모든 곱셈 결과를 편향(초록색 원)과 함께 더한 후 활성화함수를 통해 최종 출력을 생성합니다.
 
-> ** * Activation Functions **
+> ***Activation Functions**
 > 
 > ![Activation Functions](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/7056445e-8451-45c1-8760-0c552544036f)
 > 
