@@ -35,5 +35,5 @@
 > ![Example(2)](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/e74ca507-f691-4475-86de-ebdbbae7f11b)
 >
 > * 계산한 식은 다음과 같은 직선이 되며, 임의의 X값 -1과 2를 대입했을 때, g(-6) 값이 나오게 됩니다.
-> <img src="/path/to/img.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정"</img>
+> <img src="[/path/to/img.jpg](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/3c5b6ab0-8d48-4b1c-a2c0-d4877ee51cd2)https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/3c5b6ab0-8d48-4b1c-a2c0-d4877ee51cd2" width="450px" height="300px"</img>
 
