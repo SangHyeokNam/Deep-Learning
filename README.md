@@ -14,4 +14,4 @@
 > * '<b>딥러닝</b>'은 데이터에서 특징을 추출할 수 있는 신경망을 구축하는 방법에 초점을 맞춘 머신러닝의 하위 집합입니다.
 ## 3. The Perceptron
 * 신경망 언어에서 단일 뉴런을 퍼셉트론이라고 합니다.
-![Alt text](C:\Users\ASUS\OneDrive\사진\스크린샷\Perceptron.png)
+![Perceptron](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/14dc9097-3ffb-4224-b31c-e11fc52896db)
