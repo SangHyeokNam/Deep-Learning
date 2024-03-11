@@ -24,3 +24,7 @@
 > ![Activation Functions](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/7056445e-8451-45c1-8760-0c552544036f)
 > 
 > * 활성화 함수는 Sigmoid, Hyperbolic Tangent, ReLU 등 여러 유형의 함수가 있습니다.
+> * 활성화 함수의 요점은 데이터에 대해 비선형성을 도입하는 것입니다. 우리가 관심을 갖는 거의 모든 데이터는 비선형적이기 때문입니다.
+
+> **Example**
+> 
