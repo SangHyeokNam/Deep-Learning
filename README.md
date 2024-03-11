@@ -47,4 +47,7 @@
 >![스크린샷 2024-03-12 034956](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/2f69ea82-d4e7-45b0-b45a-e46336b51722)
 > * 편의를 위해 가중치와 편향을 표시하지 않겠습니다. 다층 퍼셉트론은 기존의 퍼셉트론에 각각의 출력에 입력되는 각각의 가중치 값을 계산하면 됩니다.
 
-> * 기본적인 구조의 신경망 Layer를 코드로 설명하겠습니다. 
+> * 기본적인 구조의 신경망 Layer를 코드에서 설명하겠습니다.
+>![스크린샷 2024-03-12 035822](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/e2365e9f-10cd-49e5-9224-777361339d21)
+> self.w = self.add_weight((input_dim, output_dim)) 와 self.b = self.add_weight((1, output_dim))는 가중치와 편향을 정의합니다. 가중치에 입력 차원과 출력 차원의 갯수를 정의해주고, 편향은 입력 노드가 한 개이므로 1과 출력 차원 갯수를 정의해줍니다.
+> 
