@@ -1,2 +1,3 @@
 # Introduction to Deep-Learning 
-## Why Deep-Learning
+> 이 자료는
+## - Why Deep-Learning
