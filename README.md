@@ -37,3 +37,9 @@
 > * 계산한 식은 다음과 같은 직선이 되며, 임의의 X값 -1과 2를 대입했을 때, g(-6) 값이 나오게 됩니다. 시그모이드 함수 계산식
 > ![스크린샷 2024-03-12 033310](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/3c5b6ab0-8d48-4b1c-a2c0-d4877ee51cd2) 에 대입하면, 0.002 근사치의 값을 얻게 됩니다.
 ## 4. From perceptrons to neural networks
+* 퍼셉트론이 작동하는 방식과 전달하는 방법에 대해 설명하겠습니다. 이것을 결정 내리는 데 세 단계가 있습니다.
+> 1. dot product(내적)
+> 2. Bias(편향)
+> 3. Non-Linearity(비선형성)
+신경망에 대해 이 프로세스를 계속 반복합니다.
+
