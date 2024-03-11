@@ -90,4 +90,9 @@
 > > * <b>미니 배치 경사 하강법(MGD)</b>은 위 두 가지 방법의 장점을 가져온 방법입니다. 배치 크기를 줄이고, 확률적 경사 하강법을 사용하여 안정적입니다.
 
 ## 10. Regularization: dropout and early stopping
-> 
+> * 확률적 경사하강법을 사용하여 신경망을 최적화할 때 훈련 데이터에만 치우치며 새로 주어진 데이터에 대한 성능이 떨어지는 현상인 과적합 문제가 발생합니다.
+> * 과적합을 방지하기 위해 정규화를 합니다.
+> > <b>Normalization, Regularization, standardization 모두 번역하면 정규화라고 합니다. 
+Normalization은 값의 범위를 0~1 사이로 바꾸어 Local minima에 빠질 위험 감소, Regularization은 가중치를 조정하는데 제약을 걸어 Overfitting을 방지, standardization은 값의 범위를 평균 0, 분산 1이 되도록 변환하여 Local minima에 빠질 위험 감소</b>
+
+> * 가장 널리 사용되는 정규화 기술은 Dropout이 있습니다.
