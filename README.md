@@ -18,4 +18,6 @@
 > ![Perceptron](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/70f36222-5838-462f-b764-b683d81f4ebe)
 >
 > X는 입력을 나타내며, W는 가중치를 말합니다. X1에 W1을 곱하고, X2에 W2를 곱하는 방법으로 Xm과 Wm까지의 모든 곱셈 결과를 편향(초록색 원)과 함께 더한 후 활성화함수를 통해 최종 출력을 생성합니다.
-> 
+
+> **Activation Functions**
+> * 활성화 함수는 Sigmoid, Hyperbolic Tangent, ReLU 등 여러 유형의 함수가 있습니다.
