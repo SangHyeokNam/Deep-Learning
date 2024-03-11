@@ -14,28 +14,28 @@
 > > * '<b>딥러닝</b>'은 데이터에서 특징을 추출할 수 있는 신경망을 구축하는 방법에 초점을 맞춘 머신러닝의 하위 집합입니다.
 ## 3. The Perceptron
 > * 신경망 언어에서 단일 뉴런을 퍼셉트론이라고 합니다.
-> >   
-> > ![Perceptron](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/70f36222-5838-462f-b764-b683d81f4ebe)
-> > 
-> > X는 입력을 나타내며, W는 가중치를 말합니다. X1에 W1을 곱하고, X2에 W2를 곱하는 방법으로 Xm과 Wm까지의 모든 곱셈 결과를 편향(초록색 원)과 함께 더한 후 활성화함수를 통해 최종 출력을 생성합니다.
+>   
+> ![Perceptron](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/70f36222-5838-462f-b764-b683d81f4ebe)
+> 
+> X는 입력을 나타내며, W는 가중치를 말합니다. X1에 W1을 곱하고, X2에 W2를 곱하는 방법으로 Xm과 Wm까지의 모든 곱셈 결과를 편향(초록색 원)과 함께 더한 후 활성화함수를 통해 최종 출력을 생성합니다.
 
-> > ***Activation Functions**
-> >  
-> > ![Activation Functions](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/7056445e-8451-45c1-8760-0c552544036f)
-> > 
-> > * 활성화 함수는 Sigmoid, Hyperbolic Tangent, ReLU 등 여러 유형의 함수가 있습니다.
-> > * 활성화 함수의 요점은 데이터에 대해 비선형성을 도입하는 것입니다. 우리가 관심을 갖는 거의 모든 데이터는 비선형적이기 때문입니다.
+> ***Activation Functions**
+>  
+> ![Activation Functions](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/7056445e-8451-45c1-8760-0c552544036f)
+> 
+> * 활성화 함수는 Sigmoid, Hyperbolic Tangent, ReLU 등 여러 유형의 함수가 있습니다.
+> * 활성화 함수의 요점은 데이터에 대해 비선형성을 도입하는 것입니다. 우리가 관심을 갖는 거의 모든 데이터는 비선형적이기 때문입니다.
 
-> > **Example**
-> > 
-> > ![Example(1)](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/b3776841-8143-481e-9b7a-8d60884263fb)
-> > 
-> > * 가중치가 실제 값을 갖는다고 하였을 때 위에서 배운 공식에 대입해보겠습니다. W0값은 1이며 X와 W를 각각 계산한 식입니다.
-> > 
-> > ![Example(2)](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/e74ca507-f691-4475-86de-ebdbbae7f11b)
-> > 
-> > * 계산한 식은 다음과 같은 직선이 되며, 임의의 X값 -1과 2를 대입했을 때, g(-6) 값이 나오게 됩니다. 시그모이드 함수 계산식
-> > ![스크린샷 2024-03-12 033310](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/3c5b6ab0-8d48-4b1c-a2c0-d4877ee51cd2) 에 대입하면, 0.002 근사치의 값을 얻게 됩니다.
+> **Example**
+> 
+> ![Example(1)](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/b3776841-8143-481e-9b7a-8d60884263fb)
+> 
+> * 가중치가 실제 값을 갖는다고 하였을 때 위에서 배운 공식에 대입해보겠습니다. W0값은 1이며 X와 W를 각각 계산한 식입니다.
+> 
+> ![Example(2)](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/e74ca507-f691-4475-86de-ebdbbae7f11b)
+> 
+> * 계산한 식은 다음과 같은 직선이 되며, 임의의 X값 -1과 2를 대입했을 때, g(-6) 값이 나오게 됩니다. 시그모이드 함수 계산식
+> ![스크린샷 2024-03-12 033310](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/3c5b6ab0-8d48-4b1c-a2c0-d4877ee51cd2) 에 대입하면, 0.002 근사치의 값을 얻게 됩니다.
 ## 4. From perceptrons to neural networks
 > * 퍼셉트론이 작동하는 방식과 전달하는 방법에 결정 내리는 데 세 단계가 있습니다.
 > > 1. dot product(내적)
@@ -44,15 +44,15 @@
 
 신경망에 대해 이 프로세스를 계속 반복합니다.
 
-> > ![스크린샷 2024-03-12 034956](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/2f69ea82-d4e7-45b0-b45a-e46336b51722)
-> > * 편의를 위해 가중치와 편향을 표시하지 않겠습니다. 다층 퍼셉트론은 기존의 퍼셉트론에 각각의 출력에 입력되는 각각의 가중치 값을 계산하면 됩니다.
+> ![스크린샷 2024-03-12 034956](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/2f69ea82-d4e7-45b0-b45a-e46336b51722)
+> * 편의를 위해 가중치와 편향을 표시하지 않겠습니다. 다층 퍼셉트론은 기존의 퍼셉트론에 각각의 출력에 입력되는 각각의 가중치 값을 계산하면 됩니다.
 
-> > * 기본적인 구조의 신경망 Layer를 코드에서 설명하겠습니다.
-> > ![스크린샷 2024-03-12 035822](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/e2365e9f-10cd-49e5-9224-777361339d21)
-> > * self.w = self.add_weight((input_dim, output_dim)) 와 self.b = self.add_weight((1, output_dim))는 가중치와 편향을 정의합니다. 가중치에 입력 차원과 출력 차원의 갯수를 정의해주고, 편향은 입력 노드가 한 개이므로 1과 출력 차원 갯수를 정의해줍니다.
-> > * 다음은 호출 함수 정의를 해주는데, 'tf.matmul()'은 행렬곱을 의미합니다. 입력 값과 가중치를 행렬곱을 통해 계산을 하고, 편향을 더하여 Z를 정의해줍니다. 마지막으로 출력은 시그모이드 함수를 통해 값을 return합니다.
-> > 
-> > * 실제로는 텐선플로우와 같은 라이브러리에서 함수를 호출만 하면 됩니다.
+> * 기본적인 구조의 신경망 Layer를 코드에서 설명하겠습니다.
+> ![스크린샷 2024-03-12 035822](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/e2365e9f-10cd-49e5-9224-777361339d21)
+> * self.w = self.add_weight((input_dim, output_dim)) 와 self.b = self.add_weight((1, output_dim))는 가중치와 편향을 정의합니다. 가중치에 입력 차원과 출력 차원의 갯수를 정의해주고, 편향은 입력 노드가 한 개이므로 1과 출력 차원 갯수를 정의해줍니다.
+> * 다음은 호출 함수 정의를 해주는데, 'tf.matmul()'은 행렬곱을 의미합니다. 입력 값과 가중치를 행렬곱을 통해 계산을 하고, 편향을 더하여 Z를 정의해줍니다. 마지막으로 출력은 시그모이드 함수를 통해 값을 return합니다.
+>  
+> * 실제로는 텐선플로우와 같은 라이브러리에서 함수를 호출만 하면 됩니다.
 
 ## 5. Loss functions
 > * 손실함수는 내 신경망이 예측값과 실제 값의 손실(오차)이 있는지, 손실이 있다면 얼마나 있는 지 확인하기 위해 사용합니다. 손실함수에는 여러 종류가 있지만, 대표적인 세 가지만 소개하겠습니다.
