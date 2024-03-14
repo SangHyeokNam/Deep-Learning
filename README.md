@@ -59,7 +59,7 @@
 > * 퍼셉트론은 입력에 가중치를 곱해서 더한값, 입력과 가중치(W)들을 내적을 수행한 결과를 어떤 기준 보다 높으면 출력하고 아니면 출력하지않도록 동작합니다. 이 때 기준이 되는 함수가 활성화 함수입니다.
 
 > ![스크린샷 2024-03-12 034956](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/2f69ea82-d4e7-45b0-b45a-e46336b51722)
-> * 이 그림에서 내적은 빨간 동그라미 부분입니다.
+> * 이 그림에서 내적은 ![스크린샷 2024-03-14 210757](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/743d6dd1-f447-47d7-9bc3-337a7c2911b4) 부분입니다.
 
 > * 기본적인 구조의 신경망 Layer를 코드에서 설명하겠습니다.
 > ![스크린샷 2024-03-12 035822](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/e2365e9f-10cd-49e5-9224-777361339d21)
