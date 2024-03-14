@@ -48,7 +48,7 @@
 > ![스크린샷 2024-03-12 033310](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/3c5b6ab0-8d48-4b1c-a2c0-d4877ee51cd2) 에 대입하면, 0.002 근사치의 값을 얻게 됩니다.
 ## 4. From perceptrons to neural networks
 > * 퍼셉트론이 작동하는 방식과 전달하는 방법에 결정 내리는 데 세 단계가 있습니다.
-> > 1. dot product(내적)
+> > 1. dot product(내적) (*내적은 두 개의 벡터가 존재할 때 한 벡터의 방향으로 나머지 하나를 projection(투영) 시킨 것과 다른 한 벡터의 크기의 곱으로, 결과값은 스칼라입니다.)
 > > 2. Bias(편향)
 > > 3. Non-Linearity(비선형성)
 
