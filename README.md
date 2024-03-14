@@ -40,6 +40,7 @@
 > ![Example(1)](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/b3776841-8143-481e-9b7a-8d60884263fb)
 > 
 > * 가중치가 실제 값을 갖는다고 하였을 때 위에서 배운 공식에 대입해보겠습니다. W0값은 1이며 X와 W를 각각 계산한 식입니다.
+> * 여기서 T는 전치행렬을 뜻합니다. 전치행렬은 행렬의 행과 열을 바꾸어 얻어낸 행렬을 의미합니다.
 > 
 > ![Example(2)](https://github.com/SangHyeokNam/Deep-Learning/assets/149642144/e74ca507-f691-4475-86de-ebdbbae7f11b)
 > 
